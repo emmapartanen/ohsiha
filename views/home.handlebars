@@ -1,0 +1,11 @@
+<h1> Top 10 movies </h1>
+{{#makeList siteList}}{{/makeList}}
+
+<form action="/postComment" method="POST">
+    <label> Comment </label>
+    <input id="comment" name="comment" placeholder="Add comment here" type="text"class="span12"/>
+    <div class="form-actions"> 
+        <button type="submit" class="btn btn-success pull-right"> Send </button>
+        <div class="clearfix"> </div>
+    </div>
+</form>
